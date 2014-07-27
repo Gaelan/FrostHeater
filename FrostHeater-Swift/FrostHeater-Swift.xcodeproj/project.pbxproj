@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89B9DF8E1984795E0014B401 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B9DF8D1984795E0014B401 /* main.swift */; };
+		89B9DF9B198479F10014B401 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B9DF9A198479F10014B401 /* AppDelegate.swift */; };
+		89B9DF9D198479F10014B401 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B9DF9C198479F10014B401 /* ViewController.swift */; };
+		89B9DFA0198479F10014B401 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B9DF9E198479F10014B401 /* Main.storyboard */; };
+		89B9DFA2198479F10014B401 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89B9DFA1198479F10014B401 /* Images.xcassets */; };
+		89B9DFAE198479F10014B401 /* FrostHeaterClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B9DFAD198479F10014B401 /* FrostHeaterClientTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89B9DFA8198479F10014B401 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89B9DF80198479300014B401 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89B9DF95198479F10014B401;
+			remoteInfo = FrostHeaterClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		89B9DF881984795E0014B401 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		89B9DF8A1984795E0014B401 /* FrostHeaterServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FrostHeaterServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		89B9DF8D1984795E0014B401 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		89B9DF96198479F10014B401 /* FrostHeaterClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrostHeaterClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89B9DF99198479F10014B401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89B9DF9A198479F10014B401 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89B9DF9C198479F10014B401 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89B9DF9F198479F10014B401 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89B9DFA1198479F10014B401 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		89B9DFA7198479F10014B401 /* FrostHeaterClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrostHeaterClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89B9DFAC198479F10014B401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89B9DFAD198479F10014B401 /* FrostHeaterClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrostHeaterClientTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89B9DF871984795E0014B401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89B9DF93198479F10014B401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89B9DFA4198479F10014B401 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89B9DF7F198479300014B401 = {
+			isa = PBXGroup;
+			children = (
+				89B9DF8C1984795E0014B401 /* FrostHeaterServer */,
+				89B9DF97198479F10014B401 /* FrostHeaterClient */,
+				89B9DFAA198479F10014B401 /* FrostHeaterClientTests */,
+				89B9DF8B1984795E0014B401 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89B9DF8B1984795E0014B401 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89B9DF8A1984795E0014B401 /* FrostHeaterServer */,
+				89B9DF96198479F10014B401 /* FrostHeaterClient.app */,
+				89B9DFA7198479F10014B401 /* FrostHeaterClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89B9DF8C1984795E0014B401 /* FrostHeaterServer */ = {
+			isa = PBXGroup;
+			children = (
+				89B9DF8D1984795E0014B401 /* main.swift */,
+			);
+			path = FrostHeaterServer;
+			sourceTree = "<group>";
+		};
+		89B9DF97198479F10014B401 /* FrostHeaterClient */ = {
+			isa = PBXGroup;
+			children = (
+				89B9DF9A198479F10014B401 /* AppDelegate.swift */,
+				89B9DF9C198479F10014B401 /* ViewController.swift */,
+				89B9DF9E198479F10014B401 /* Main.storyboard */,
+				89B9DFA1198479F10014B401 /* Images.xcassets */,
+				89B9DF98198479F10014B401 /* Supporting Files */,
+			);
+			path = FrostHeaterClient;
+			sourceTree = "<group>";
+		};
+		89B9DF98198479F10014B401 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89B9DF99198479F10014B401 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89B9DFAA198479F10014B401 /* FrostHeaterClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				89B9DFAD198479F10014B401 /* FrostHeaterClientTests.swift */,
+				89B9DFAB198479F10014B401 /* Supporting Files */,
+			);
+			path = FrostHeaterClientTests;
+			sourceTree = "<group>";
+		};
+		89B9DFAB198479F10014B401 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89B9DFAC198479F10014B401 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89B9DF891984795E0014B401 /* FrostHeaterServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89B9DF8F1984795E0014B401 /* Build configuration list for PBXNativeTarget "FrostHeaterServer" */;
+			buildPhases = (
+				89B9DF861984795E0014B401 /* Sources */,
+				89B9DF871984795E0014B401 /* Frameworks */,
+				89B9DF881984795E0014B401 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FrostHeaterServer;
+			productName = FrostHeaterServer;
+			productReference = 89B9DF8A1984795E0014B401 /* FrostHeaterServer */;
+			productType = "com.apple.product-type.tool";
+		};
+		89B9DF95198479F10014B401 /* FrostHeaterClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89B9DFAF198479F10014B401 /* Build configuration list for PBXNativeTarget "FrostHeaterClient" */;
+			buildPhases = (
+				89B9DF92198479F10014B401 /* Sources */,
+				89B9DF93198479F10014B401 /* Frameworks */,
+				89B9DF94198479F10014B401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FrostHeaterClient;
+			productName = FrostHeaterClient;
+			productReference = 89B9DF96198479F10014B401 /* FrostHeaterClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89B9DFA6198479F10014B401 /* FrostHeaterClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89B9DFB2198479F10014B401 /* Build configuration list for PBXNativeTarget "FrostHeaterClientTests" */;
+			buildPhases = (
+				89B9DFA3198479F10014B401 /* Sources */,
+				89B9DFA4198479F10014B401 /* Frameworks */,
+				89B9DFA5198479F10014B401 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89B9DFA9198479F10014B401 /* PBXTargetDependency */,
+			);
+			name = FrostHeaterClientTests;
+			productName = FrostHeaterClientTests;
+			productReference = 89B9DFA7198479F10014B401 /* FrostHeaterClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89B9DF80198479300014B401 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				TargetAttributes = {
+					89B9DF891984795E0014B401 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					89B9DF95198479F10014B401 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					89B9DFA6198479F10014B401 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 89B9DF95198479F10014B401;
+					};
+				};
+			};
+			buildConfigurationList = 89B9DF83198479300014B401 /* Build configuration list for PBXProject "FrostHeater-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89B9DF7F198479300014B401;
+			productRefGroup = 89B9DF8B1984795E0014B401 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89B9DF891984795E0014B401 /* FrostHeaterServer */,
+				89B9DF95198479F10014B401 /* FrostHeaterClient */,
+				89B9DFA6198479F10014B401 /* FrostHeaterClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89B9DF94198479F10014B401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89B9DFA0198479F10014B401 /* Main.storyboard in Resources */,
+				89B9DFA2198479F10014B401 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89B9DFA5198479F10014B401 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89B9DF861984795E0014B401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89B9DF8E1984795E0014B401 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89B9DF92198479F10014B401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89B9DF9D198479F10014B401 /* ViewController.swift in Sources */,
+				89B9DF9B198479F10014B401 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89B9DFA3198479F10014B401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89B9DFAE198479F10014B401 /* FrostHeaterClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89B9DFA9198479F10014B401 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89B9DF95198479F10014B401 /* FrostHeaterClient */;
+			targetProxy = 89B9DFA8198479F10014B401 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89B9DF9E198479F10014B401 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89B9DF9F198479F10014B401 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89B9DF84198479300014B401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		89B9DF85198479300014B401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		89B9DF901984795E0014B401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89B9DF911984795E0014B401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		89B9DFB0198479F10014B401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = FrostHeaterClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89B9DFB1198479F10014B401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = FrostHeaterClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89B9DFB3198479F10014B401 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FrostHeaterClient.app/FrostHeaterClient";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = FrostHeaterClientTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		89B9DFB4198479F10014B401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FrostHeaterClient.app/FrostHeaterClient";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = FrostHeaterClientTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89B9DF83198479300014B401 /* Build configuration list for PBXProject "FrostHeater-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89B9DF84198479300014B401 /* Debug */,
+				89B9DF85198479300014B401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89B9DF8F1984795E0014B401 /* Build configuration list for PBXNativeTarget "FrostHeaterServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89B9DF901984795E0014B401 /* Debug */,
+				89B9DF911984795E0014B401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		89B9DFAF198479F10014B401 /* Build configuration list for PBXNativeTarget "FrostHeaterClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89B9DFB0198479F10014B401 /* Debug */,
+				89B9DFB1198479F10014B401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		89B9DFB2198479F10014B401 /* Build configuration list for PBXNativeTarget "FrostHeaterClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89B9DFB3198479F10014B401 /* Debug */,
+				89B9DFB4198479F10014B401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89B9DF80198479300014B401 /* Project object */;
+}
